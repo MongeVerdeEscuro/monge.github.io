@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+*
+    {
+        margin: 0;
+        padding: 0;
+    }
+body
+    {
+        display: flex;
+        flex-direction: column;
+        /* height: 100vh; */
+        box-sizing: border-box;
+        background-color: #020202;
+        color: #f6f6f6; 
+        box-sizing: border-box;
+        color: #F6F6F6;
+    }
+.cabelo
+    {
+        color: #ff4800;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        gap: 15px;
+        align-items: center;
+        padding: 15px;
+        height: 10%
+    }
+
+.link
+    {
+        color: #ff4800;
+        text-decoration: none;
+        font-size: 15px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 800;
+        padding: 0% 0% 0% 4%;
+        text-align: center;            
+    }
+
+.container 
+    {
+        padding: 8% 5% 3% 3%;
+        display: flex;
+        align-items: center;
+        
+    }
+ .imagem2
+ 
+    {
+        padding: 0% 3%;
+    }
+
+.texto
+    {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        width: 640px;
+    }
+
+.titulo
+    {
+        font-size: 36px;
+        font-family: 'Krona One', sans-serif;
+    }
+
+.destit
+    {
+        color: #ff4800;
+    }
+
+.paragrafo
+    {
+        font-size: 24px;
+        font-family: 'Montserrat', sans-serif;
+    }
+.linkparagrafo
+    {
+        text-decoration: none;
+    }
+.botao
+    {
+        display: flex;
+        align-items:center;
+        flex-direction: column;
+        justify-content: space-around;
+        gap: 10px;
+    }
+
+.titbotao
+    {
+        font-family: 'Krona One', sans-serif;
+        font-weight: 400;
+        font-size: 24px;
+    }
+
+.estilo_botao
+    {
+        /* background-color: #22d4fd; */
+        width: 350px;
+        text-align:center;
+        border-radius: 8px;
+        font-size: 24px;
+        padding: 21.5px 0;
+        color: #f6f6f6;
+        text-decoration: none;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        border: 2px solid #ff4800;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+    }
+
+.estilo_botao:hover  
+    {
+        background-color: #9c3e18;
+    }
+.foto
+    {
+        padding: 0% 0% 0% 3%;
+    }
+.pezinho
+    {     
+        color: #000000;
+        background-color: #ff4800;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        font-size: 15px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 800;
+        padding: 15px;
+        height: 20%;
+    }
+.email
+    {
+        text-decoration: none;
+        color: #000000;
+    }
+.tel
+    {
+        text-decoration: none;
+        color: #000000;
+    }

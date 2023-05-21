@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+*
+    {
+        margin: 0;
+        padding: 0;
+    }
+body
+    {
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        background-color: black;
+        color: #f6f6f6; 
+        box-sizing: border-box;
+        background-color: #000000;
+        color: #F6F6F6;
+    }
+.cabelo
+    {
+        color: #ff4800;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        gap: 15px;
+        align-items: center;
+        padding: 15px;
+        height: 10%
+    }
+
+.link
+    {
+        color: #ff4800;
+        text-decoration: none;
+        font-size: 15px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 800;
+        padding: 0% 0% 0% 4%;
+        text-align: center;            
+    }
+
+.container 
+    {
+        padding: 8% 5% ;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        
+    }
+
+.foto
+    {
+        display: flex;
+        justify-content:right;
+        height: 170px;
+        width: 170px;
+        border-radius: 16px;
+
+    }
+
+.pessoais
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+    }
+
+.titulo
+    {
+        font-size: 36px;
+        font-family: 'Krona One', sans-serif;
+    }
+
+.destit
+    {
+        color: #ff4800;
+    }
+
+.profissao
+    {
+        font-size: 28px;
+        font-family: 'Krona One', sans-serif;
+    }
+
+.corpo-curriculo
+    {
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+    }
+
+.subtit
+    {
+        font-size: 25px;
+        font-family: 'montserrat', sans-serif;
+        padding: 0% 0% 3% 0%;
+    }
+.paragrafo
+    {
+        font-size: 18px;
+        font-family: 'Montserrat', sans-serif;
+        padding: 0% 0% 5% 0%;
+        
+    }
+ .data
+    {
+        font-size: 18px;
+        font-family: 'Montserrat', sans-serif;
+        display: flex;
+        padding: 10% 0% 0% 0%;
+    } 
+
+.info
+    {
+        font-size: 18px;
+        font-family: 'Montserrat', sans-serif;
+        display: flex;
+    } 
+
+.organiza-corpo
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+        padding: 0% 0% 8% 0% ;
+    }
+.organiza-data
+    {
+        display: flex;
+        flex-direction: column;
+        padding: 3%;
+    }
+.pessoais_direita
+    {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        left: 70%;
+        top: 55%
+    }
+.organiza-direita
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content:space-between;
+        padding: 0% 0% 8% 0% ;   
+    }
+.progress-bar100
+    {
+        --progress: 100 ;
+        height: 4px;
+        padding: 5px;
+        background-color: #272727;
+        display: flex;
+    }
+
+.progress-bar100::before
+    {
+        content: "";
+        width: calc(var(--progress) * 1%);
+        background-color: hsl( calc(var(--progress) * 1.2) , 80%, 50%);
+        transition: all 0.2s ease;
+      }
+
+.progress-bar75
+    {
+        --progress: 75 ;
+        height: 4px;
+        padding: 5px;
+        background-color: #272727;
+        display: flex;
+    }
+  
+.progress-bar75::before
+    {
+        content: "";
+        width: calc(var(--progress) * 1%);
+        background-color: hsl( calc(var(--progress) * 1.2) , 80%, 50%);
+        transition: all 0.2s ease;
+    }
+.progress-bar60
+    {
+        --progress: 60;
+        height: 4px;
+        padding: 5px;
+        background-color: #272727;
+        display: flex;
+    }
+    
+.progress-bar60::before
+        {
+            content: "";
+            width: calc(var(--progress) * 1%);
+            background-color: hsl( calc(var(--progress) * 1.2) , 80%, 50%);
+            transition: all 0.2s ease;
+          }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .pezinho
+    {     
+        color: #000000;
+        background-color: #A83001;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        font-size: 15px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 800;
+        padding: 15px;
+        height: 20%;
+    }
+.email
+    {
+        text-decoration: none;
+        color: #000000;
+    }
+.tel
+    {
+        text-decoration: none;
+        color: #000000;
+    }
