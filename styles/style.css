@@ -145,7 +145,7 @@ body{
         color: var(--cor-quaternaria);
     }
 
-@media (max-width: 1200px){
+@media (max-width: 900px){
         header{
             padding: 10%;
         }
@@ -161,5 +161,11 @@ body{
         .link{
             font-size: 2rem;
         }
-       
     }
+@media(max-width: 746px){
+    .estilo_botao{
+        flex-direction: column;
+        gap: 0%;
+    }
+}
+    
