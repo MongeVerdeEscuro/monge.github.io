@@ -216,5 +216,7 @@ body{
     }
     .titulo{
         font-size: 1.80rem;
+        width: 70%;
     }
+    
 } 
